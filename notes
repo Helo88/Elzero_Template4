@@ -1,0 +1,17 @@
+lazy loading for images 
+skeleton
+loading on scroll
+
+#dashboardMain #mainTable td{
+background-color: aqua;
+    }
+    only leave the first column without bg
+
+    #dashboardMain #mainTable td+td{
+background-color: aqua;
+    }
+    only leave the first 2 columna without bg
+        #dashboardMain #mainTable td+td +td {
+background-color: aqua;
+    }
+    only leave the first 3 columna without bg
